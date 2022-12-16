@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+    <title>Portifólio</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="home">
+      <!-- navbar -->
+      <nav id="nav">
+        <div class="nav-center">
+          <!-- nav header -->
+          <div class="nav-header">
+            <button class="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <!-- links -->
+          <div class="links-container">
+            <ul class="links">
+              <li>
+                <a href="#home" class="scroll-link">Home</a>
+              </li>
+              <li>
+                <a href="#about" class="scroll-link">Sobre</a>
+              </li>
+              <li>
+                <a href="#skills" class="scroll-link">Skills</a>
+              </li>
+              <li>
+                <a href="#projects" class="scroll-link">Projetos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- banner -->
+      <div class="banner">
+        <div class="container">
+          <h1>front-end developer</h1>
+          <p>
+            Desenvolvedora apaixonada por soluções simples para problemas
+            difíceis. Entusiasta de metodologias ágeis, ambientes flexíveis,
+            voltados ao aprendizado e entrega contínua de valor.
+          </p>
+          <a href="#projects" class="scroll-link btn btn-white"
+            >veja meus projetos</a
+          >
+          <div class="icons-container">
+            <a
+              class="icons"
+              href="https://www.linkedin.com/in/caroline-dmp/"
+              target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a
+              class="icons"
+              href="https://github.com/Cahmarchi95"
+              target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- about -->
+    <section id="about" class="section">
+      <div class="title">
+        <h2>Sobre</h2>
+        <p class="p-about">
+          Olá! Meu nome é Caroline, tenho 27 anos e estou há 5 anos trabalhando
+          como dentista. No momento estou realizando a transição de carreira
+          para área de programação e desenvolvimento web, especificamente em
+          Front end. Fiz o curso de Algoritmos e o curso sobre HTML5 e CSS3 pela
+          plataforma curso em vídeo com o professor Guanabara. Em agosto de 2022
+          dei início ao curso de Javascript pela plataforma da Udemy com o
+          professor John Smilga e em Janeiro de 2023 vou começar a estudar
+          React. Busco oportunidades nessa área como estágio ou júnior.
+        </p>
+        <div class="about-container">
+          <ul>
+            <li>
+              <a
+                href="assets/currículo-Caroline.pdf"
+                download=""
+                class="download"
+                >Clique aqui para baixar meu currículo 🔗</a
+              >
+            </li>
+            <li><br /></li>
+            <li>
+              <a href="assets/resume-caroline.pdf" download="" class="download"
+                >Download my resume 🔗</a
+              >
+            </li>
+          </ul>
+          <img src="img/IMG_20220918_151855633~2.jpg" class="carol-img" />
+        </div>
+      </div>
+    </section>
+    <!-- skills -->
+    <section id="skills" class="section">
+      <div class="title">
+        <h2>Skills</h2>
+        <p class="subtitle">Linguagens & Ferramentas</p>
+        <ul class="list-icons">
+          <li class="list-inline-item">
+            <i class="devicon-html5-plain-wordmark colored"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="devicon-css3-plain-wordmark colored"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="devicon-javascript-plain colored"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="devicon-typescript-plain colored"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="devicon-react-original-wordmark colored"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="devicon-npm-original-wordmark colored"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="devicon-github-original-wordmark colored"></i>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- projects -->
+    <section id="projects" class="section">
+      <div class="title">
+        <h2>Projetos</h2>
+      </div>
+      <!-- Portfolio Grid Items-->
+      <div class="row">
+        <a
+          href="https://cahmarchi95.github.io/Javascript/05-%20Projects/20-filters/starter/index.html"
+          target="_blank"
+          ><img class="img-fluid" src="img/projeto1.png"
+        /></a>
+        <a href=""><img class="img-fluid" src="img/loading-img.jpg" /></a>
+        <a href=""><img class="img-fluid" src="img/loading-img.jpg" /></a>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="section">
+      <p>
+        copyright &copy;
+        <span id="date"></span>. Caroline de Marchi Petherson. Front-end
+        Developer
+      </p>
+    </footer>
+    <a class="scroll-link top-link" href="#home">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
