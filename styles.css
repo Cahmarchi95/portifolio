@@ -429,36 +429,66 @@ footer p {
   }
 }
 
-@media screen and (max-width: 768px) {
-  .list-icons {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    place-items: center;
-  }
-
+@media screen and (max-width: 420px) {
   .about-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     place-items: center;
     max-width: 40rem;
-    font-size: 0.3rem;
+    font-size: 0.2rem;
     margin: 0;
     padding-left: 10px;
   }
 
+  .list-icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    font-size: 3.3rem;
+    margin: 0;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+    margin: auto;
+  }
+
   .carol-img {
-    max-width: 250px;
-    height: 150px;
+    max-width: 40vw;
+    max-height: 15vh;
     padding-left: 40px;
     margin: 0;
   }
 
   .download {
     font-size: 1rem;
-    margin-top: 10px;
+    margin: 0;
+    padding: 0;
   }
   .p-about {
+    max-width: 40rem;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 20px;
     font-size: 1rem;
+  }
+
+  .img-fluid {
+    
+    max-width: 70%;
+    height: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-top: 5px;
+  }
+
+  
+  .row {
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 0;
   }
 }
 
